@@ -1,8 +1,19 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Welcome to Example.com!</title>
-    </head>
-    <body>
-        <h1>Success!  The example.com PINCHA PINGAAAAAAAA!</h1>
-    </body>
+<body>
+
+<p>Click the button to display the hostname of the current URL.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = location.hostname;
+  document.getElementById("demo").innerHTML= x;
+}
+</script>
+
+</body>
 </html>
